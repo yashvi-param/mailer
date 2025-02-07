@@ -1,0 +1,99 @@
+.body{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.bg-pink{
+    color: #f74780;
+}
+.btn1{
+    border-color: #f74780 !important;
+    background-color: white !important;
+    color: #f74780 !important;
+    font-family: "Rubik", sans-serif !important;
+}
+.btn1:hover{
+    background-color: #f74780 !important;
+    color: white !important;
+}
+.btn2{
+    background-color: #f74780 !important;
+    color: white !important;
+    font-family: "Rubik", sans-serif !important;
+}
+.btn2:hover{
+    background-color: white !important;
+    border-color: #f74780 !important;
+    color: #f74780 !important;
+}
+.btn{
+    margin: auto;
+    border: 1px solid #f74780;
+}
+.text-primary{
+    color:#f74780 !important;
+}
+.border-primary{
+    background-color: #f74780;
+}
+h1{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.display-4{
+    font-weight: 700 !important;
+}
+.btn.btn-primary {
+    background: #f74780 !important;
+    color: white!important;
+    font-weight: 400;
+    
+}
+.text-pink{
+    color: #f74780 !important;
+}
+.lorem{
+    color: #757575;
+}
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.container1{
+    width: 1320px;
+}
+.display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 700 !important;
+    line-height: 1.2;
+}
+.price .price-item .pice-item-offer {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    top: -45px;
+    right: -80px;
+    background: var(--bs-primary) !important;
+    color: var(--bs-white);
+    transform: rotate(42deg);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.blog-item{
+    border-radius: 10px;
+}
+.blog-img{
+    position: relative !important;
+    overflow: hidden;
+    background: rgba(102, 16, 242, 0.2) !important;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+.blog-img img{
+    transition: 0.5s;
+}
+.w-100 {
+    width: 100% !important;
+}
