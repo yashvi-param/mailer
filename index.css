@@ -185,12 +185,40 @@ h1{
 .blog-item .blog-img img {
     transition:all 0.5s;
 }
-.price .price-item:hover {
+ .price-item:hover {
     background-color: white;
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
 }
-.price .price-item {
+ .price-item {
     position: relative;
     overflow: hidden;
     transition: 0.5s;
 }
+.header::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 70%;
+    background: var(--bs-light);
+    border-radius: 22% 78% 33% 67% / 32% 0% 100% 68%;
+    animation: bgMove 5s linear infinite;
+    z-index: -1;
+}
+a:hover {
+    color: #c63966;
+}
+ .footer-item a:hover {
+    letter-spacing: 2px;
+    color: #f74780;
+   
+}
+.footer-item a {
+    line-height: 35px;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+
