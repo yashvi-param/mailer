@@ -267,6 +267,7 @@ a:hover {
     display: inline-block !important;
     height: 100px !important;
     width: 100px !important;
+    scale: 0.5 !important;
 }
 .text-blue{
     color: #6610f2 !important;
